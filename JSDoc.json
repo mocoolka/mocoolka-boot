@@ -1,0 +1,38 @@
+{
+  "tags": {
+    "allowUnknownTags": true
+  },
+  "plugins": [
+    "plugins/markdown",
+    "node_modules/jsdoc-i18n-plugin"
+  ],
+  "i18n": {
+    "locale": "zh_CN",
+    "directory": "localesdoc",
+    "srcDir": "doc",
+    "extension": ".js" // or using .json instead.
+  },
+  "templates": {
+    "cleverLinks": false,
+    "monospaceLinks": false,
+    "default": {
+      "outputSourceFiles": true
+    },
+    "systemName"      : "mocoolka-boot",
+    "footer"          : "https://github.com/fastspeeed/mocoolka/issues",
+    "copyright"       : "Mocoolka Copyright © 2012-2016 The contributors to mocoolka-boot project.",
+    "navType"         : "vertical",
+    "theme"           : "cerulean",
+    "linenums"        : true,
+    "collapseSymbols" : false,
+    "inverseNav"      : true
+  },
+  "markdown": {
+    "parser": "gfm",
+    "hardwrap": true
+  },
+  "opts": {
+    "sort": false
+  }
+
+}

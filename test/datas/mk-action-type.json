@@ -1,0 +1,13 @@
+{
+  "name": "MkActionType",
+  "records": [
+    {
+      "name": "record",
+      "label": "Record"
+    },
+    {
+      "name": "store",
+      "label": "Store"
+    }
+  ]
+}

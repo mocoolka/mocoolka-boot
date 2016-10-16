@@ -1,0 +1,21 @@
+{
+  "name": "MkActionType",
+  "mkautobuild":true,
+  "properties": {
+    "name": {
+      "type": "string",
+      "label": "Name",
+      "id": true,
+      "description": [
+        "The name by which the field is referenced within the Model"
+      ]
+    },
+    "label": {
+      "type": "string",
+      "label": "Label",
+      "description": [
+        "It is short description for the field."
+      ]
+    }
+  }
+}

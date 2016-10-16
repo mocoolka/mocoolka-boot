@@ -1,0 +1,21 @@
+{
+  "name": "MkAction",
+  "mkautobuild":true,
+  "properties": {
+    "name": {
+      "type": "string",
+      "label": "Name",
+      "id": true,
+      "description": [
+        "The name by which the field is referenced within the Model"
+      ]
+    }
+  },
+  "relations": {
+    "MkActionType": {
+      "type": "belongsTo",
+      "model": "MkActionType",
+      "foreignKey": "actionType"
+    }
+  }
+}
